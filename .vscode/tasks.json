@@ -8,8 +8,10 @@
                 "/Zi",
                 "/EHsc",
                 "/nologo",
+                "/I../include",
                 "/Fe${fileDirname}\\${fileBasenameNoExtension}.exe",
-                "${file}"
+                "${file}",
+                "../src/GRMHDModule.cpp"
             ],
             "options": {
                 "cwd": "${fileDirname}"
